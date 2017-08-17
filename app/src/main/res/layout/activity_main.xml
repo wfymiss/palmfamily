@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xykj.fgy.palmfamily.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_main"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_homepager"
+            style="@style/RadioButton"
+            android:drawableTop="@drawable/shape_select"
+            android:background="@drawable/radio_group_selector"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_behavior"
+            style="@style/RadioButton"
+            android:drawableTop="@drawable/bh_shape_select"
+            android:background="@drawable/radio_group_selector"
+            android:text="行为" />
+
+        <RadioButton
+            android:id="@+id/rb_tutor"
+            style="@style/RadioButton"
+            android:drawableTop="@drawable/hometeacher"
+            android:background="@drawable/radio_group_selector"
+            android:text="家教" />
+
+        <RadioButton
+            android:id="@+id/rb_find"
+            style="@style/RadioButton"
+            android:drawableTop="@drawable/find"
+            android:background="@drawable/radio_group_selector"
+            android:text="发现" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            style="@style/RadioButton"
+            android:drawableTop="@drawable/me1"
+            android:background="@drawable/radio_group_selector"
+            android:text="我的" />
+
+
+    </RadioGroup>
+</RelativeLayout>

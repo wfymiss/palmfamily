@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">掌上家庭</string>
+    <string name="loading">请稍候</string>
+    <string name="net_error">网络访问错误，请稍后再试</string>
+    <string name="download">下载中心</string>
+    <string name="search">搜索</string>
+    <!-- 共享过度动画 -->
+    <string name="transition_photos">transition_animation_news_photos</string>
+    <string name="channel_manage">频道管理</string>
+    <string name="my_channel">我的频道       长按并拖拽可排序</string>
+    <string name="more_channel">更多频道       点击添加</string>
+    <string name="reload">重新尝试</string>
+    <string name="empty">还没有数据</string>
+    <string name="news_from">%1$s %2$s</string>
+    <string name="info">请输入正确的手机号</string>
+    <string name="buttom">掌上家庭</string>
+    <string name="show">信息已发送</string>
+    <string name="showError">信息发送失败</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
